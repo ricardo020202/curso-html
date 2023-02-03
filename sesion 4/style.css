@@ -1,0 +1,27 @@
+body {
+    background: rgba(203, 96, 179, 1);
+    background: -moz-linear-gradient(top, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 49%, rgba(219, 54, 164, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203, 96, 179, 1)), color-stop(0%, rgba(193, 70, 161, 1)), color-stop(49%, rgba(168, 0, 119, 1)), color-stop(100%, rgba(219, 54, 164, 1)));
+    background: -webkit-linear-gradient(top, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 49%, rgba(219, 54, 164, 1) 100%);
+    background: -o-linear-gradient(top, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 49%, rgba(219, 54, 164, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 49%, rgba(219, 54, 164, 1) 100%);
+    background: linear-gradient(to bottom, rgba(203, 96, 179, 1) 0%, rgba(193, 70, 161, 1) 0%, rgba(168, 0, 119, 1) 49%, rgba(219, 54, 164, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=0)
+}
+
+#red {
+    color: red;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#blue {
+    color: blue;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 200px 50px 0px 0px;
+    border: 0px solid #000000;
+}
