@@ -1,0 +1,118 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 821px) {
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+        background: rgba(147, 206, 222, 1);
+        background: -moz-radial-gradient(center, ellipse cover, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 23%, rgba(73, 165, 191, 1) 100%);
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147, 206, 222, 1)), color-stop(23%, rgba(117, 189, 209, 1)), color-stop(100%, rgba(73, 165, 191, 1)));
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 23%, rgba(73, 165, 191, 1) 100%);
+        background: -o-radial-gradient(center, ellipse cover, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 23%, rgba(73, 165, 191, 1) 100%);
+        background: -ms-radial-gradient(center, ellipse cover, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 23%, rgba(73, 165, 191, 1) 100%);
+        background: radial-gradient(ellipse at center, rgba(147, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 23%, rgba(73, 165, 191, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1);
+    }
+
+    .logo {
+        width: 250px;
+        height: auto;
+    }
+    
+    #logo-css {
+        width: 190px;
+        height: auto;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .container {
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width:541px) and (max-width: 820px) {
+    body {
+        background: rgba(164, 179, 87, 1);
+        background: -moz-radial-gradient(center, ellipse cover, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(164, 179, 87, 1)), color-stop(100%, rgba(117, 137, 12, 1)));
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+        background: -o-radial-gradient(center, ellipse cover, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+        background: -ms-radial-gradient(center, ellipse cover, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+        background: radial-gradient(ellipse at center, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4b357', endColorstr='#75890c', GradientType=1);
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+    
+    #logo-css {
+        width: 90px;
+        height: auto;
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .container {
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+/*mobile phones*/
+@media only screen and (max-width: 540px) {
+    body {
+        background: rgba(255, 93, 177, 1);
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 93, 177, 1)), color-stop(100%, rgba(239, 1, 124, 1)));
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+        background: -o-radial-gradient(center, ellipse cover, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+        background: -ms-radial-gradient(center, ellipse cover, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+        background: radial-gradient(ellipse at center, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1);
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+    
+    #logo-css {
+        width: 80px;
+        height: auto;
+    }
+
+    .logo-desktop{
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.parrafo {
+    width: 60%;
+}
