@@ -1,0 +1,39 @@
+body {
+    height: 5000px;
+}
+
+.bg {
+    background-color: darksalmon;
+}
+
+img {
+    width: 250px;
+}
+
+.black {
+    position: fixed;
+    top: 0;
+    background: #333;
+    width: 100%;
+    height: 50px;
+
+}
+
+.black ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.black ul li {
+    display: inline-block;
+    width: 100px;
+    color: red;
+}
+
+.blue {
+    position: fixed;
+    top: 0;
+    background: blue;
+    width: 100%;
+    height: 50px;
+}
